@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #525866;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.header_conteudo{
+    /* background-color: blueviolet; */
+    width: 1200px;
+    display: flex;
+}
+.h_endereco{
+    /* background-color: green; */
+    width: 400px;
+    display: flex;
+
+    align-items: center;
+}
+.h_endereco > span{
+    color: white;
+}
+.h_mais{
+    /* background-color: peru; */
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+.h_mais > div{
+    /* background-color: rgb(11, 94, 94); */
+    display: flex;
+    width: 643px;
+    margin-right: 20px;
+}
+.h_mais > div > a{
+    border-left: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.h_mais > div > a:nth-child(5){
+    background-color: #B9142B;
+}
+#whats{
+    width: 132px;
+    height: 50px;
+}
+#whats > img {
+    width: 20px;
+    height: 20px;
+}
+#numero{
+    width: 126px;
+    height: 50px;
+}
+#face{
+    width: 40px;
+    height: 50px;
+}
+#face > img{
+    width: 20px;
+    height: 35px;
+}
+#trabalhe_aqui{
+    width: 146px;
+    height: 50px;
+}
+#resultado_exames{
+    width: 198px;
+    height: 50px;
+}
+#resultado_exames > img{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 1229px){
+    header{
+        /* background-color: #c4c4c4; */
+        height: 100px;
+    }
+    .header_conteudo{
+        width: 970px;
+    }
+    .h_endereco{
+        width: 330px;
+        height: 70px;
+    }
+    .h_endereco > span{
+        margin-left: 15px;
+    }
+    .h_mais{
+        justify-content: center;
+    }
+    .h_mais > div{
+        margin-right: 0px;
+        width: 600px;
+        display: grid;
+        grid-template-columns: 132px 126px 40px 146px 198px;
+        grid-template-rows: 50px 50px;
+    }
+    #resultado_exames{
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+}
+@media screen and (max-width: 991px){
+    .header_conteudo{
+        /* background-color: blue; */
+        width: 750px;
+        flex-wrap: wrap;
+    }
+    .h_endereco{
+        height: 50px;
+    }
+    .h_endereco > span{
+        margin-left: 5px;
+        font-size: 0.95em;        
+    }
+    .h_mais{
+        justify-content: flex-end;
+    }
+    .h_mais > div{
+        display: flex;
+        margin-right: 20px;
+        width: 533px
+    }
+    .h_mais > div > a{
+        font-size: 0.95em;
+    }
+    #whats{width: 110px;}
+    #numero{width: 102px;}
+    #face{width: 34px;}
+    #trabalhe_aqui{width: 119px;}
+    #resultado_exames{width: 167px;}
+}
+@media screen and (max-width: 768px){
+    .header_conteudo{
+        /* background-color: hotpink; */
+        justify-content: center;
+    }
+    header{
+        height: 50px;
+    }
+    .h_endereco{
+        display: none;
+    }
+    .h_mais > div > a{
+        font-size: initial;
+    }
+    .h_mais{
+        justify-content: center;
+        width: auto;
+    }
+    .h_mais > div{
+        width: 607px;
+        margin-right: 0px;
+    }
+    #whats{width: 122px;}
+    #numero{width: 116px;}
+    #face{width: 44px;}
+    #trabalhe_aqui{width: 136px;}
+    #resultado_exames{width: 188px;}
+}
+@media screen and (max-width: 630px){
+    header{
+        height: 100px;
+    }
+    .h_mais > div{
+        width: 470px;
+        display: grid;
+        grid-template-columns: 122px 116px 44px 136px 188px;
+        grid-template-rows: 50px 50px;
+    }
+    #resultado_exames{
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+}
+@media screen and (max-width: 480px){
+    header{
+        display: none;
+    }
+}
