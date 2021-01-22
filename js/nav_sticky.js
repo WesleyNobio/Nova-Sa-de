@@ -1,5 +1,8 @@
 
 const moveu = _ => {
+    if(window.scrollY > 0){
+        document.querySelector('nav').style.position = 'absolute';
+    }
     if (window.scrollY > 2) {
 
         document.querySelector('header').style.display = 'none';
