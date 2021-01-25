@@ -1,0 +1,58 @@
+.exames{
+    display: flex;
+    justify-content: center;
+}
+.exames > div {
+    width: 1200px;
+    padding: 20px;
+}
+.exames > div > h2{
+    font-weight: 700;
+    font-size: 43px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+.exames > div > p{
+    color: #444444;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'source light', sans-serif;
+}
+.exames > div > button {
+    background-color: #337ab7;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 8px 14px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exames > div > button > img{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 1229px){
+    .exames > div {
+        width: 970px;
+    }   
+}
+@media screen and (max-width: 991px){
+    .exames > div {
+        width: 750px;
+    }
+}
+@media screen and (max-width: 770px){
+    .exames > div > h2{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 480px){
+    .exames > div > h2{
+        font-size: 28px;
+    }
+}

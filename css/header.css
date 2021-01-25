@@ -5,12 +5,10 @@ header{
     justify-content: center;
 }
 .header_conteudo{
-    /* background-color: blueviolet; */
     width: 1200px;
     display: flex;
 }
 .h_endereco{
-    /* background-color: green; */
     width: 400px;
     display: flex;
 
@@ -20,13 +18,11 @@ header{
     color: white;
 }
 .h_mais{
-    /* background-color: peru; */
     width: 800px;
     display: flex;
     justify-content: flex-end;
 }
 .h_mais > div{
-    /* background-color: rgb(11, 94, 94); */
     display: flex;
     width: 643px;
     margin-right: 20px;
@@ -79,7 +75,6 @@ header{
 
 @media screen and (max-width: 1229px){
     header{
-        /* background-color: #c4c4c4; */
         height: 100px;
     }
     .header_conteudo{
@@ -109,7 +104,6 @@ header{
 }
 @media screen and (max-width: 991px){
     .header_conteudo{
-        /* background-color: blue; */
         width: 750px;
         flex-wrap: wrap;
     }
@@ -139,7 +133,6 @@ header{
 }
 @media screen and (max-width: 768px){
     .header_conteudo{
-        /* background-color: hotpink; */
         justify-content: center;
     }
     header{

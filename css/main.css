@@ -1,14 +1,29 @@
+@font-face{
+    font-family: 'source regular';
+    src: url('../fonts/source-sans-pro.regular.ttf');
+}
+@font-face{
+    font-family: 'source light';
+    src: url('../fonts/source-sans-pro.light.ttf');
+}
+@font-face{
+    font-family: 'source extralight';
+    src: url('../fonts/source-sans-pro.extralight.ttf');
+}
+@font-face{
+    font-family: 'raleway extrabold';
+    src: url('../fonts/raleway.extrabold.ttf');
+}
 *{
     margin: 0;
 }
 body{
-    /* background-color: #D0742E; */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'source regular', sans-serif;
     display: flex;
+    color: #444444;
     height: 2000px;
 }
 .div1{
-    /* background-color: #B9142B; */
     width: 100%;
     position: relative;
 }
@@ -46,7 +61,6 @@ body{
         border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     }
     .ul_2{
-        /* background-color: aqua; */
         overflow: scroll;
         overflow-x: hidden;
         overflow-y: auto;
@@ -58,7 +72,6 @@ body{
         background-color: #D0742E;
     }
     .ul_2 > li > a{
-        /* background-color: forestgreen; */
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -72,7 +85,6 @@ body{
         background-color: rgb(138, 29, 44)
     }
     ol{
-        /* background-color: fuchsia; */
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -88,7 +100,6 @@ body{
         color: #ffffff;
         border-top: 1px solid rgba(0, 0, 0, 0.4);
         font-size: smaller;
-        /* background-color: blue; */
     }
     
     .div1_off{
@@ -97,7 +108,6 @@ body{
         z-index: 11;
         width: 100%;
         height: 100%;
-        /* background-color: rgba(0, 0, 0, 0.4); */
     }
 }
 @media only screen and (max-width: 480px){
