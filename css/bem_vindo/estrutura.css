@@ -1,0 +1,74 @@
+.estrutura > div{
+    margin-bottom: 20px;
+    width: 570px;
+    height: 380px;
+}
+.div_i1{
+    background-image: url('../../assets/imagem-230.jpeg');
+    background-size: cover;
+}
+.div_t{
+    margin-left: 25px;
+}
+.div_t > h4{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.div_t > p{
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'source light', sans-serif;
+    text-align: justify;
+}
+
+.div_i2{
+    background-image: url('../../assets/imagem-231.jpeg');
+    background-size: cover;
+}
+.div_i3{
+    background-image: url('../../assets/imagem-232.jpeg');
+    background-size: cover;
+    margin-left: 25px;
+}
+.div_i4{
+    background-image: url('../../assets/imagem-233.jpeg');
+    background-size: cover;
+}
+.div_i5{
+    background-image: url('../../assets/imagem-234.jpeg');
+    background-size: cover;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1229px){
+    .estrutura > div{
+        width: 455px;
+        height: 303px;
+    }   
+    .div_t{
+        width: 448px !important;
+        height: 493px !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .estrutura > div{
+        width: 720px ;
+        height: 479px ;
+        margin-left: 0px;        
+    }
+    .div_t{
+        width: 720px !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 783px){
+    .estrutura > div{
+        width: 100%;
+    }
+    .div_t{
+        width: 100%;
+        height: auto;
+    }
+}

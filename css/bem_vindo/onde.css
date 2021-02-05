@@ -1,0 +1,67 @@
+.o_mapa{
+    width: 600px;
+    height: 303px;
+    background-image: url('../../assets/maps.png');
+    background-size: 
+}
+.o_texto{
+    width: 600px;
+    height: 333px;
+}
+.o_texto > h4{
+    margin-left: 25px;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.o_texto > p{
+    margin-left: 25px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'source light', sans-serif;
+    text-align: justify;
+}
+@media screen and (max-width: 1229px){
+    .o_mapa{
+        width: 455px;
+        height: 227px;
+    }
+    .o_texto{
+        width: 485px;
+        height: 397px;
+    }
+}
+@media screen and (max-width: 991px){
+    .o_mapa{
+        width: 720px;
+        height: 360px;
+    }
+    .o_texto{
+        padding-top: 40px;
+        width: 720px;
+        height: 269px;
+    }
+    .o_texto > h4{
+        margin-left: 0px;
+    }
+    .o_texto > p{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 783px){
+    .o_mapa{
+        width: 100%;
+    }
+    .o_texto{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ============================== mobile ===================================== */
+@media screen and (max-width: 480px){
+    .o_texto > p{
+        line-height: 28px;
+    }
+}

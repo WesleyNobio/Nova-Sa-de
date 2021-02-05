@@ -1,0 +1,71 @@
+.d_img{
+    width: 600px;
+    height: 336px;
+    background-image: url('../../assets/equipe.jpg');
+    background-size: cover;
+}
+.d_texto{
+    width: 600px;
+    height: 336px;
+}
+.d_texto > h4{
+    margin-left: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.d_texto > p{
+    margin-left: 25px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'source light', sans-serif;
+    text-align: justify;
+}
+@media screen and (max-width: 1229px){
+    .d_img{
+        width: 455px;
+        height: 268px;
+    }
+    .d_texto{
+        width: 485px;
+        height: 365px;
+    }
+    .d_texto > h4{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 991px){
+    .d_img{
+        width: 720px;
+        height: 424px;
+    }
+    .d_texto{
+        padding-top: 40px;
+        width: 720px;
+        height: 269px;
+    }
+    .d_texto > h4{
+        margin-left: 0px;
+    }
+    .d_texto > p{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 783px){
+    .d_img{
+        width: 100%;
+    }
+    .d_texto{
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ============================== mobile ===================================== */
+@media screen and (max-width: 480px){
+    .d_texto > p{
+        line-height: 28px;
+    }
+}

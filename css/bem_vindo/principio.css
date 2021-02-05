@@ -1,0 +1,57 @@
+.d_img_1{
+    width: 600px;
+    height: 390px;
+    background-image: url('../../assets/porque-e-tao-importante-ir-ao-medico.jpg');
+    background-size: cover; 
+}
+.d_texto_1{
+    width: 600px;
+    height: 390px;
+}
+.d_texto_1 > p{
+    margin-left: 25px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'source light', sans-serif;
+    text-align: justify;
+}
+@media screen and (max-width: 1229px){
+    .d_img_1{
+        width: 455px;
+        height: 311px;
+    }
+    .d_texto_1{
+        width: 485px;
+        height: 447px;
+    }
+}
+@media screen and (max-width: 991px){
+    .d_img_1{
+        width: 720px;
+        height: 493px;
+    }
+    .d_texto_1{
+        padding-top: 40px;
+        width: 720px;
+        height: 319px;
+    }
+    .d_texto_1 > p{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 783px){
+    .d_img_1{
+        width: 100%;
+    }
+    .d_texto_1{
+        width: 100%;
+        height: auto;
+    }
+}
+/* ============================== mobile ===================================== */
+@media screen and (max-width: 480px){
+    .d_texto_1 > p{
+        line-height: 28px;
+    }
+}

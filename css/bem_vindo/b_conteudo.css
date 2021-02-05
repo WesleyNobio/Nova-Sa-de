@@ -1,0 +1,24 @@
+.div11{
+    display: flex;
+}
+.principio{
+    display: flex;
+}
+.estrutura{
+    display: flex;
+    flex-wrap: wrap;
+}
+.onde{
+    display: flex;
+}
+@media screen and (max-width: 991px){
+    .div11{
+        flex-wrap: wrap;
+    }
+    .principio{
+        flex-wrap: wrap;
+    }
+    .onde{
+        flex-wrap: wrap;
+    }
+}
