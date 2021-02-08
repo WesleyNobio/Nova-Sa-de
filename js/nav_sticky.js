@@ -51,4 +51,4 @@ const antesDedescarregar = _ => {
 }
 
 window.addEventListener('scroll', moveu)
-window.addEventListener('beforeunload', antesDedescarregar)
+// window.addEventListener('beforeunload', antesDedescarregar)

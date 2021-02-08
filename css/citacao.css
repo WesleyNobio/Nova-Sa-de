@@ -1,0 +1,43 @@
+.citacao{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/dr-testimonial-bg.jpg') no-repeat fixed;
+    background-size: cover;
+    font-family: 'raleway extrabold';
+}
+.citacao > span {
+    width: 1200px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+#dr{
+    font-size: 18px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1229px){
+    .citacao > span {
+        width: 970px;
+    }
+}
+@media screen and (max-width: 991px){
+    .citacao > span {
+        width: 750px;
+    }
+}
+@media screen and (max-width: 783px){
+    .citacao > span {
+        padding: 0px 20px 0px 20px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .citacao > span {
+        font-size: 36px;
+    }
+}

@@ -35,6 +35,7 @@ document.querySelectorAll('.btn_a').forEach(a => {
         bc[a.classList[1]].classList.remove('off')
         bc[a.classList[1]].classList.add('on')
 
+        document.querySelector('.b_1').style.height = `${bc[a.classList[1]].offsetHeight}px`
     })
 });
 
