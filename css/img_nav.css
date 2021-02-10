@@ -1,18 +1,15 @@
 .img_logo{
-    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     height: 140px;
 }
 .img_logo > div{
-    /* background-color: green; */
     width: 1200px;
 }
 .img_logo > div > img{
     position: absolute;
     width: 302px;
     height: 189px;
-    /* border: 1px solid black; */
     margin-left: -12px;
     margin-top: -12px;
     z-index: 10;
@@ -24,19 +21,16 @@ nav{
     background-color: #ffffff;
     height: 84px;
     width: 100%;
-    /* position: absolute; */
     margin-top: -112px;
     display: flex;
     justify-content: center;
     z-index: 9;
 }
 .menu_icon{
-    /* background-color: rgb(102, 102, 168); */
     width: 1200px;
     display: flex;
 }
 .icon{
-    /* background-color: forestgreen; */
     width: 300px;
 }
 .icon > img {
@@ -50,7 +44,6 @@ nav{
     border-radius: 5px;
 }
 .menu{
-    /* background-color: aquamarine; */
     width: 900px;
     height: 58px;
 
@@ -75,7 +68,6 @@ nav{
 .menu > ul > li:nth-child(5){ width: 106px;}
 .menu > ul > li > a{
     text-decoration: none;
-    /* background-color: fuchsia; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +92,6 @@ nav{
 }
 @media screen and (max-width: 1230px){
     .menu > ul {
-        /* background-color: blue; */
         width: 670px;
     }
 }
@@ -138,19 +129,16 @@ nav{
         display: none;
     }
     nav{
-        /* background-color: red; */
         height: 282px;
         margin-top: 0px;
         justify-content: flex-start;
     }
     .menu_icon{
-        /* background-color: rgb(102, 102, 168); */
         width: 100%;
         justify-content: center;
         align-items: center;
     }
     .icon{
-        /* background-color: forestgreen; */
         width: 750px;
         height: 225px;
         display: flex;
