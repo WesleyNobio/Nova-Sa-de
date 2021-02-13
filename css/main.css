@@ -38,7 +38,6 @@ body{
         width: calc(100% - 421px);
     }
     .div2{
-        background-color: blueviolet;
         display: flex;
         width: 421px;
         height: 100vh;

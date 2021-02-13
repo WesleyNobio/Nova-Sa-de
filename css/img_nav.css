@@ -18,6 +18,8 @@
 /* ====================== menu ======================= */
 
 nav{
+    position: sticky;
+    top: 0;
     background-color: #ffffff;
     height: 84px;
     width: 100%;

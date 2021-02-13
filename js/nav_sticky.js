@@ -1,21 +1,14 @@
 
 const moveu = _ => {
-    if(window.scrollY > 0){
-        document.querySelector('nav').style.position = 'absolute';
-    }
     if (window.scrollY > 2) {
 
-        document.querySelector('header').style.display = 'none';
-        var nav = document.querySelector('nav')
-        nav.style.position = 'sticky';
-        nav.style.top = 0;
-        nav.style.height = 'auto'
+        document.querySelector('header').style.height = '0px';
+        // document.querySelector('nav').style.height = 'auto'
         document.querySelector('#img_logo').style.position = 'static'
     }
     if (window.scrollY < 3) {
 
-        var nav = document.querySelector('nav')
-        nav.removeAttribute('style')
+        // document.querySelector('nav').removeAttribute('style')
         document.querySelector('header').removeAttribute('style')
         document.querySelector('#img_logo').style.position = 'absolute'
     }
@@ -51,4 +44,4 @@ const antesDedescarregar = _ => {
 }
 
 window.addEventListener('scroll', moveu)
-// window.addEventListener('beforeunload', antesDedescarregar)
+window.addEventListener('beforeunload', antesDedescarregar)
